@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.12.1 on darwin)" generated="2024-05-16T15:13:07.298157" rpa="false" schemaversion="5">
+<suite id="s1" name="Test First" source="/Users/surya/PycharmProjects/Robot_Framework/Robot/firstrobot/test_first.robot">
+<test id="s1-t1" name="Validate UnSuccessful Login" line="6">
+<kw name="open the browser with the perfect url">
+<kw name="Create Webdriver" owner="SeleniumLibrary">
+<msg time="2024-05-16T15:13:07.412990" level="INFO">Creating an instance of the Chrome WebDriver.</msg>
+<arg>Chrome</arg>
+<doc>Creates an instance of Selenium WebDriver.</doc>
+<status status="PASS" start="2024-05-16T15:13:07.412879" elapsed="1.318348"/>
+</kw>
+<kw name="Go To" owner="SeleniumLibrary">
+<msg time="2024-05-16T15:13:08.733982" level="INFO">Opening url 'https://practicetestautomation.com/practice-test-login/'</msg>
+<arg>https://practicetestautomation.com/practice-test-login/</arg>
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<status status="PASS" start="2024-05-16T15:13:08.733157" elapsed="2.466443"/>
+</kw>
+<status status="PASS" start="2024-05-16T15:13:07.412368" elapsed="3.787407"/>
+</kw>
+<kw name="Check the menu buttons">
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-05-16T15:13:11.201191" level="INFO">Clicking element 'menu-item-43'.</msg>
+<arg>menu-item-43</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-05-16T15:13:11.200536" elapsed="0.833464"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-05-16T15:13:12.034292" level="INFO">Clicking element 'menu-item-20'.</msg>
+<arg>menu-item-20</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-05-16T15:13:12.034144" elapsed="0.521352"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-05-16T15:13:12.555788" level="INFO">Clicking element 'menu-item-21'.</msg>
+<arg>menu-item-21</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-05-16T15:13:12.555645" elapsed="0.883026"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-05-16T15:13:13.438997" level="INFO">Clicking element 'menu-item-19'.</msg>
+<arg>menu-item-19</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-05-16T15:13:13.438847" elapsed="2.914278"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-05-16T15:13:16.353401" level="INFO">Clicking element 'menu-item-18'.</msg>
+<arg>menu-item-18</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-05-16T15:13:16.353264" elapsed="2.232113"/>
+</kw>
+<status status="PASS" start="2024-05-16T15:13:11.200223" elapsed="7.385280"/>
+</kw>
+<kw name="Come back to starting url">
+<kw name="Go To" owner="SeleniumLibrary">
+<msg time="2024-05-16T15:13:18.586158" level="INFO">Opening url 'https://practicetestautomation.com/practice-test-login/'</msg>
+<arg>https://practicetestautomation.com/practice-test-login/</arg>
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<status status="PASS" start="2024-05-16T15:13:18.586075" elapsed="0.517597"/>
+</kw>
+<status status="PASS" start="2024-05-16T15:13:18.585877" elapsed="0.517900"/>
+</kw>
+<kw name="fill the login form">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-05-16T15:13:19.104306" level="INFO">Typing text 'student' into text field 'Id:username'.</msg>
+<arg>Id:username</arg>
+<arg>student</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-05-16T15:13:19.104155" elapsed="0.099210"/>
+</kw>
+<kw name="Input Password" owner="SeleniumLibrary">
+<msg time="2024-05-16T15:13:19.203659" level="INFO">Typing password into text field 'password'.</msg>
+<msg time="2024-05-16T15:13:19.230276" level="INFO">Temporally setting log level to: NONE</msg>
+<arg>password</arg>
+<arg>Password123</arg>
+<doc>Types the given password into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-05-16T15:13:19.203520" elapsed="0.058421"/>
+</kw>
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2024-05-16T15:13:19.262205" level="INFO">Clicking button 'id:submit'.</msg>
+<arg>id:submit</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2024-05-16T15:13:19.262076" elapsed="1.603441"/>
+</kw>
+<status status="PASS" start="2024-05-16T15:13:19.103951" elapsed="1.761657"/>
+</kw>
+<kw name="Log out">
+<kw name="Click Link" owner="SeleniumLibrary">
+<msg time="2024-05-16T15:13:20.866263" level="INFO">Clicking link 'Log out'.</msg>
+<arg>Log out</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<status status="PASS" start="2024-05-16T15:13:20.866133" elapsed="0.140114"/>
+</kw>
+<status status="PASS" start="2024-05-16T15:13:20.865820" elapsed="0.140516"/>
+</kw>
+<status status="PASS" start="2024-05-16T15:13:07.412030" elapsed="13.594475"/>
+</test>
+<doc>To validate the login page</doc>
+<status status="PASS" start="2024-05-16T15:13:07.299146" elapsed="13.707727"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Test First">Test First</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
